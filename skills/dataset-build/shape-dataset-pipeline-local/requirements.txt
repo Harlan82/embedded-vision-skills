@@ -1,0 +1,6 @@
+numpy>=1.24
+opencv-python>=4.8
+pyyaml>=6.0
+
+# 可选：装了它 verify 才能跑平台级校验（ultralytics check_det_dataset）
+# ultralytics>=8.3

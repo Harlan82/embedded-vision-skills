@@ -1,0 +1,22 @@
+# Normalize to LF in the repository; check out LF everywhere.
+* text=auto eol=lf
+
+# Windows batch files must keep CRLF to run correctly.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets — never convert.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.pt binary
+*.onnx binary
+*.axmodel binary
+*.cvimodel binary
+
+# Markdown / Python / JSON are always text.
+*.md text
+*.py text
+*.json text
+*.txt text
